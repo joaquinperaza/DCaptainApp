@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="appcompat-v7-24.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/1a7ffd275cd8b19556ecf4fa10b2e6f5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-24.0.0.aar/1a7ffd275cd8b19556ecf4fa10b2e6f5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

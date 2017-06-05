@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/build/intermediates/res/merged/debug/layout/dialog_login.xml",
+        "source": "/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/src/main/res/layout/dialog_login.xml"
+    },
+    {
+        "merged": "/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/build/intermediates/res/merged/debug/layout/log_dialog_view.xml",
+        "source": "/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/src/main/res/layout/log_dialog_view.xml"
+    }
+]

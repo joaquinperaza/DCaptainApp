@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/dji_eventbus.jar
+FILE_HASH=931d96c3452313dba0ccd3e77c6d52210122be63
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

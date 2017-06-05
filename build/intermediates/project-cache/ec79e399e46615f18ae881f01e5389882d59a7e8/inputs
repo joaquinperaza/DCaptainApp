@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/retrofit-2.0.1.jar
+FILE_HASH=bafe112d565fcde2495e3d8b59989a108af0caa3
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

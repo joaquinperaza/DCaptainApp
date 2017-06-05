@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="play-services-identity-10.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-identity-10.2.1.aar/94cd7544a23e0969d94f5acbf1927b8a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-identity-10.2.1.aar/94cd7544a23e0969d94f5acbf1927b8a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

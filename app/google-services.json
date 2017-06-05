@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "516551647007",
+    "firebase_url": "https://io2018-challenge.firebaseio.com",
+    "project_id": "io2018-challenge",
+    "storage_bucket": "io2018-challenge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516551647007:android:02d0d4de647982bc",
+        "android_client_info": {
+          "package_name": "uy.peraza.dronecaptain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516551647007-bitjgorbjdjtfpf4ahllut1akc58lo2j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uy.peraza.dronecaptain",
+            "certificate_hash": "5fb8fe3aff0c11dc5054a2ac6b2437ee5fb17535"
+          }
+        },
+        {
+          "client_id": "516551647007-9pb34qamb0rvhnabrhrd34urkcoln12l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMkBHzBYvh96t55OlyHmwqs3mId1y0UTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516551647007-9pb34qamb0rvhnabrhrd34urkcoln12l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

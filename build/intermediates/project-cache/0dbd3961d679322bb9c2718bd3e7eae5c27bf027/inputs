@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/okio-1.7.0.jar
+FILE_HASH=c5ef976d99ae2c9423eaf5ff0a750fd040118de3
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

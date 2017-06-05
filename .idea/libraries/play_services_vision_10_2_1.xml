@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="play-services-vision-10.2.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.1.aar/87fd0318f59d2fe0d375125e4415447e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-vision-10.2.1.aar/87fd0318f59d2fe0d375125e4415447e/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

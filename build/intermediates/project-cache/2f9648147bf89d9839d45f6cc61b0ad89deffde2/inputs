@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/rxandroid-1.1.0.jar
+FILE_HASH=8c023dc6974699af1aca0e94e0e4f1403dc53849
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

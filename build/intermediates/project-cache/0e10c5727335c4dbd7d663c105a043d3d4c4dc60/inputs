@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/sqlcipher.jar
+FILE_HASH=69a970b0a356885017d0acaf9f19944caaa04900
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

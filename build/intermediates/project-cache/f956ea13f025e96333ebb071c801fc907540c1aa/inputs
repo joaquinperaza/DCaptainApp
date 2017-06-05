@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar
+FILE_HASH=6f172a287519e3277b3678aaadcbdc90af4002ad
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

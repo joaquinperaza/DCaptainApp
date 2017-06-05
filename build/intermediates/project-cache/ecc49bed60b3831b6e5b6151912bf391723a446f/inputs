@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/sqlbrite-0.6.2.jar
+FILE_HASH=177d78bffd72414e384c8d96f76601f8b19f83ea
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

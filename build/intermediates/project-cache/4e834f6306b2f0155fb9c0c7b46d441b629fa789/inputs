@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/okhttp-3.2.0.jar
+FILE_HASH=574ccbea44a69c550413acc8f4c3c9ecaa0136d7
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true

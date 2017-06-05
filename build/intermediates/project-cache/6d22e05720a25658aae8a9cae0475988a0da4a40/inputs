@@ -1,0 +1,6 @@
+COMMAND=PREDEX_LIBRARY_TO_DEX_ARCHIVE
+FILE_PATH=/Users/joaquin/Downloads/Android-GSDemo-GoogleMap-master/GSDemo/dJISDKLIB/libs/dji_gson.jar
+FILE_HASH=c8c3ca75c6f65f1b31c7033d7541490fc841fda3
+DX_VERSION=1.13
+JUMBO_MODE=true
+OPTIMIZE=true
