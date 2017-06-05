@@ -24,6 +24,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import dji.common.battery.BatteryState;
 import dji.sdk.battery.Battery;
 import dji.sdk.remotecontroller.RemoteController;
 import uy.peraza.dronecaptain.R;
@@ -76,6 +77,8 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     DatabaseReference dConnected;
     DatabaseReference dQueue;
     Context mContext;
+    Battery bat;
+    Integer volt;
     private ComponentListener cListner;
 
     public Context getmContext() {
@@ -104,7 +107,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     private WaypointMissionOperator instance;
     private WaypointMissionFinishedAction mFinishedAction = WaypointMissionFinishedAction.GO_HOME;
     private WaypointMissionHeadingMode mHeadingMode = WaypointMissionHeadingMode.AUTO;
-    Integer volt;
+
 
 
     @Override
@@ -252,8 +255,7 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
         if (product != null && product.isConnected()) {
             if (product instanceof Aircraft) {
                 mFlightController = ((Aircraft) product).getFlightController();
-
-
+                bat = ((Aircraft) product).getBattery();
 
 
             }
@@ -272,7 +274,14 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
             });
 
         }
-    }
+        if (bat != null) {
+            bat.setStateCallback(new BatteryState.Callback() {
+                @Override
+                public void onUpdate(BatteryState batteryState) {
+                    volt = batteryState.getChargeRemainingInPercent();
+                }
+            });
+    }}
 
     //Add Listener for WaypointMissionOperator
     private void addListener() {
@@ -626,12 +635,14 @@ public class MainActivity extends FragmentActivity implements View.OnClickListen
     }
 
     private void report(){
+        final Context contexto = this.getmContext();
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         dConnected.child("fcstatus").setValue(mFlightController.getState());
-       // SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(contexto);
+        String model = preferences.getString("model", "Unknow model");
+        dConnected.child("model").setValue(model);
+        dConnected.child("battery").setValue(volt);
 
-        //String idtoken = preferences.getString("model", "No model");
-        //dConnected.child("model").setValue(idtoken);
 
 
     }

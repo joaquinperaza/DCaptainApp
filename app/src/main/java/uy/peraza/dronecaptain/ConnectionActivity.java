@@ -172,10 +172,12 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
     private void refreshSDKRelativeUI() {
         BaseProduct mProduct = DJIDemoApplication.getProductInstance();
 
-        if (null != mProduct && mProduct.isConnected() && firebased==true) {
+        if (null != mProduct && mProduct.isConnected()) {
             Log.v(TAG, "refreshSDK: True");
+            if (firebased==true){
+                mBtnOpen.setEnabled(true);
+            }
 
-            mBtnOpen.setEnabled(true);
 
             String str = mProduct instanceof Aircraft ? "DJIAircraft" : "DJIHandHeld";
             mTextConnectionStatus.setText("Status: " + str + " connected");
@@ -196,7 +198,6 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
         } else {
             Log.v(TAG, "refreshSDK: False");
             mBtnOpen.setEnabled(false);
-
             mTextProduct.setText(R.string.product_information);
             mTextConnectionStatus.setText(R.string.connection_loose);
         }
@@ -230,12 +231,6 @@ public class ConnectionActivity extends Activity implements View.OnClickListener
             firebased=true;
             refreshSDKRelativeUI();
             textsmall.setText("");
-
-
-
-
-
-
 
         } else {
             Log.e("now",nowtoken);
